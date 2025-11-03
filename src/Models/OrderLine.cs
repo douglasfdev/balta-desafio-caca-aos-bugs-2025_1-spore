@@ -2,7 +2,7 @@ namespace BugStore.Models;
 
 public class OrderLine
 {
-    public Guid Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
     public Guid OrderId { get; set; }
     
     public int Quantity { get; set; }
