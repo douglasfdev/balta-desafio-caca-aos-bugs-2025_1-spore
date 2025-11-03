@@ -8,7 +8,7 @@ builder.Services.AddInfrastructureDILayer();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "OK", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "SporeChallenge", Version = "v1" });
 });
 
 var app = builder.Build();
